@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import Cart from "./Carts";
 
 interface Product {
-  quantity: number;
   id: number;
   name: string;
   image: string;
