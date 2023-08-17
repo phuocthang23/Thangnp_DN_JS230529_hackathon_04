@@ -65,7 +65,6 @@ function TodoList() {
         ))}
       </main>
       <footer className="container">
-        <p>Add to the todo list </p>
         <div className="add">
           <input type="text" placeholder="Add your list to do ...." value={newTask} onChange={inputValue} />
           <button onClick={addTask}>ADD NOW</button>
